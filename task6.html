@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            display: flex;
+            font-weight: bold;
+            flex-wrap: wrap;
+            position: fixed;
+            background-color: black;
+            opacity: 0.5;
+            width: 100%;
+            top: 0;
+            justify-content: space-between;
+            
+        }
+
+        .nav .rightnav {
+            display: flex;
+            flex-wrap: wrap;
+            
+
+        }
+
+        .nav ul li {
+            list-style: none;
+            z-index: 1000;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav .rightnav li {
+            padding-right: 20px;
+        }
+
+        .nav span {
+            color: blue;
+        }
+
+        .hero {
+            background-color: aliceblue;
+            text-align: center;
+        }
+
+        .hero .hero-img {
+            height: 200px;
+            width: 70%;
+        }
+
+        .hero span {
+            color: blue;
+        }
+
+        .container .card {
+            width: 200px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            border:  red 1px solid;
+        }
+        .container .card .text{
+            padding: 15px;
+        }
+
+        .container .card .btn {
+            background-color: aqua;
+            height: 30px;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <!-- <a href=""><h2><span>M</span>ODERNA</h2></a> -->
+        <ul>
+            <li><a href=""><span>M</span>ODERNA</a></li>
+        </ul>
+        <ul class="rightnav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div id="home" class="hero">
+        <img class="hero-img" src="hero-img.png" alt="hero image">
+        <h3><span>Morderna</span> HTML Business Template</h3>
+    </div>
+    <div id="features" class="container">
+        <div class="card">
+            <div class="text">
+                <h4>Fully Responsive</h4>
+                <h5>Card Title</h5>
+                <p>This is a wider card with supportin text below as a natural lead</p>
+            </div>
+            <div class="btn">
+            </div>
+        </div>
+        <div class="card">
+            <div class="text">
+                <h4>Fully Responsive</h4>
+                <h5>Card Title</h5>
+                <p>This is a wider card with supportin text below as a natural lead</p>
+            </div>
+            <div class="btn">
+            </div>
+        </div>
+        <div class="card">
+            <div class="text">
+                <h4>Fully Responsive</h4>
+                <h5>Card Title</h5>
+                <p>This is a wider card with supportin text below as a natural lead</p>
+            </div>
+            <div class="btn">
+            </div>
+        </div>
+        <div class="card">
+            <div class="text">
+                <h4>Fully Responsive</h4>
+                <h5>Card Title</h5>
+                <p>This is a wider card with supportin text below as a natural lead</p>
+            </div>
+            <div class="btn">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
